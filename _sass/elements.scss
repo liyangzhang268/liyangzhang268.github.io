@@ -1,53 +1,60 @@
 html {
-	background: $background;
-	color: $color;
-	font-family: 'Rosario', sans-serif;
-	color: $color;
+  background: $background;
+  color: $color;
+  font-family: 'Hind';
+  color: $color;
 }
 
 header {
-	display: flex;
+  display: flex;
 }
 
 a {
-	color: $link-color;
-	text-decoration: none;
+  color: $link-color;
+  text-decoration: none;
 }
 
 p {
-	font-size: 1.1em;
-	line-height: 1.6em;
+  font-size: 1.1em;
+  line-height: 1.6em;
 }
 
 nav {
-	flex: 1;
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-	margin-right: -15px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: -15px;
 
-	a {
-		padding: 15px;
-		text-decoration: none;
-		color: darken($color, 30%);
-		transition: color .2s ease;
+  a {
+    padding: 15px;
+    text-decoration: none;
+    color: darken($color, 30%);
+    transition: color .2s ease;
 
-		&.active {
-			color: $color;
-		}
+    &.active {
+      color: $color;
+    }
 
-		&:hover {
-			color: $color;
-		}
-	}
+    &:hover {
+      color: $color;
+    }
+  }
 }
 
 img {
-	max-width: 100%;
+  max-width: 100%;
 }
 
 footer {
-	text-align: center;
-	color: #aaa;
-	margin: 23px 0;
+  text-align: center;
+  color: #aaa;
+  margin: 23px 0;
+}
+
+.email-link {
+  background-color: #f7df1e; /* Yellow background color */
+  color: #000; /* Black text color */
+  padding: 5px 10px; /* Add some padding to make the link more visible */
+  border-radius: 5px; /* Add some rounded corners to the link */
 }
